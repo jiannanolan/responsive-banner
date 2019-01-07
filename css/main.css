@@ -23,4 +23,17 @@ p {
   color: #fff;
 }
 
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    position: relative;
+  }
+
+  .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    width: 100%;
+  }
 }
